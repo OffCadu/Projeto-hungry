@@ -3,12 +3,23 @@ body{
   margin:0;
   padding-top: 60px;
   background: #FF9D1A;
+  font-family: Trebuchet MS;
+}
+
+section{
+  background: #fff;
 }
 
 /*estilização de conteúdo*/
 
+#conteudo #cabecalho{
+  font-family: Candara; 
+}
+
+
 #conteudo{
-  margin-top:20px;
+  padding: 15px;
+  margin-top:45px;
 }
 
 /*Nav bar*/
@@ -23,4 +34,10 @@ nav.navbar-transparente {
 
 .navbar-dark .navbar-nav .nav-link:hover{
   color: #FF9D1A;
+}
+
+/*Cards*/
+
+.lanche-tipos{
+  background-color;
 }
