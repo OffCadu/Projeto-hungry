@@ -66,3 +66,105 @@ footer{
   height: 100px;
   background-color: #FF9E00;
 }
+
+footer ul li{
+  float: right;
+  margin: 0px 5px;
+}
+
+
+
+
+@media (max-width: 575.98px) { 
+  /*Navbar*/
+  .navbar-toggler{
+    margin-bottom: 0.5em;
+  }
+
+  #navbar_toggle{
+    background-color: #FF9E00;
+  }
+  
+  #logo{
+    width: 80px;
+  }
+
+  #conteudo h1, p{
+    font-size: 1em;
+  }
+  
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+  /*Navbar*/
+  .navbar-toggler{
+    margin-bottom: 0.5em;
+  }
+
+  #logo{
+    width: 80px;
+  }
+
+  #conteudo h1, p{
+    font-size: 1em;
+  }
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+  
+  /*Navbar*/
+  .navbar-toggler{
+    margin-bottom: 0.5em;
+  }
+  
+  #logo{
+    width: 80px;
+  }
+
+  #conteudo h1, p{
+    font-size: 2em;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+  /*Navbar*/
+  .navbar-toggler{
+    margin-bottom: 1em;
+  }
+
+  #logo{
+    width: 100px;
+  }
+
+
+  #conteudo h1, p{
+    font-size: 3em;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+  /*Navbar*/
+  .navbar-toggler{
+    margin-bottom: 1em;
+  }
+  
+  #logo{
+   width: 100px;
+  }
+
+  #conteudo h1, p{
+    font-size: 4em;
+  }
+
+
+}
