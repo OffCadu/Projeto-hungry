@@ -82,6 +82,10 @@ footer ul li{
     margin-bottom: 50px;
   }
   
+  #logo{
+    width: 70px;
+  }
+  
 }
 
 /* Small devices (landscape phones, 576px and up)*/
